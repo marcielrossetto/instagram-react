@@ -1,8 +1,6 @@
 import React from 'react';
-import NavBar from './components/NavBar';
-import Body from './components/Body';
-import './styles/reset.css';
-import './styles/style.css';
+import NavBar from './NavBar';
+import Body from './Body';
 
 function App() {
   return (

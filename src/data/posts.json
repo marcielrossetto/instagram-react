@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "user": "meowed",
+      "userImage": "assets/img/meowed.svg",
+      "image": "assets/img/gato-telefone.svg",
+      "liked": false,
+      "saved": false,
+      "likes": 101523,
+      "likedBy": "respondeai",
+      "likedByImage": "assets/img/respondeai.svg"
+    },
+    {
+      "id": 2,
+      "user": "barked",
+      "userImage": "assets/img/barked.svg",
+      "image": "assets/img/dog.svg",
+      "liked": false,
+      "saved": false,
+      "likes": 99159,
+      "likedBy": "adorable_animals",
+      "likedByImage": "assets/img/adorable_animals.svg"
+    }
+  ]
+  
