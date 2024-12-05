@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Post({ post, toggleLike, toggleSave }) {
+function Post({ post, handleImageClick, handleIconClick, toggleSave }) {
   return (
     <div className="post">
       <div className="topo">
@@ -13,17 +13,30 @@ function Post({ post, toggleLike, toggleSave }) {
         </div>
       </div>
       <div className="conteudo">
-        <img src={post.image} alt={post.user} onClick={() => toggleLike(post.id)} />
+        {/* Clique na imagem só aumenta o like uma vez */}
+        <img 
+          src={post.image} 
+          alt={post.user} 
+          onClick={() => handleImageClick(post.id)} 
+          style={{ cursor: 'pointer' }}
+        />
       </div>
       <div className="fundo">
         <div className="acoes">
           <div>
-            <ion-icon name={post.liked ? "heart" : "heart-outline"} onClick={() => toggleLike(post.id)}></ion-icon>
+            {/* Ícone de coração alterna entre curtir e descurtir */}
+            <ion-icon 
+              name={post.liked ? "heart" : "heart-outline"} 
+              onClick={() => handleIconClick(post.id)}
+            ></ion-icon>
             <ion-icon name="chatbubble-outline"></ion-icon>
             <ion-icon name="paper-plane-outline"></ion-icon>
           </div>
           <div>
-            <ion-icon name={post.saved ? "bookmark" : "bookmark-outline"} onClick={() => toggleSave(post.id)}></ion-icon>
+            <ion-icon 
+              name={post.saved ? "bookmark" : "bookmark-outline"} 
+              onClick={() => toggleSave(post.id)}
+            ></ion-icon>
           </div>
         </div>
         <div className="curtidas">

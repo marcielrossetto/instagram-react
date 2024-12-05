@@ -3,10 +3,10 @@
       "id": 1,
       "user": "meowed",
       "userImage": "assets/img/meowed.svg",
-      "image": "assets/img/gato-telefone.svg",
+      "image": "assets/img/borboleta.png",
       "liked": false,
       "saved": false,
-      "likes": 101523,
+      "likes": 523,
       "likedBy": "respondeai",
       "likedByImage": "assets/img/respondeai.svg"
     },
@@ -14,11 +14,33 @@
       "id": 2,
       "user": "barked",
       "userImage": "assets/img/barked.svg",
-      "image": "assets/img/dog.svg",
+      "image": "assets/img/gato-telefone.svg",
       "liked": false,
       "saved": false,
-      "likes": 99159,
+      "likes": 959,
       "likedBy": "adorable_animals",
+      "likedByImage": "assets/img/adorable_animals.svg"
+    },
+    {
+      "id": 3,
+      "user": "wawawicomics",
+      "userImage": "assets/img/wawawicomics.svg",
+      "image": "assets/img/aguia.jpg",
+      "liked": false,
+      "saved": false,
+      "likes": 15,
+      "likedBy": "wawawicomics",
+      "likedByImage": "assets/img/adorable_animals.svg"
+    },
+    {
+      "id": 4,
+      "user": "filomoderna",
+      "userImage": "assets/img/filomoderna.svg",
+      "image": "assets/img/oip.jpg",
+      "liked": false,
+      "saved": false,
+      "likes": 9,
+      "likedBy": "9gag",
       "likedByImage": "assets/img/adorable_animals.svg"
     }
   ]
