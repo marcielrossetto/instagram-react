@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Post from './Post';
-import postData from '../data/posts.json'; // Certifique-se de que o JSON contém os dados necessários
+import postData from '../data/posts.json';
 
 function Posts() {
   const [posts, setPosts] = useState(postData);

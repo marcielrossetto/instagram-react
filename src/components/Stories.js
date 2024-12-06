@@ -1,6 +1,6 @@
 import React from 'react';
 import Story from './Story';
-import storyData from '../data/stories.json'; // Crie um JSON com os dados das stories
+import storyData from '../data/stories.json'; 
 
 function Stories() {
   return (

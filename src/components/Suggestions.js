@@ -1,6 +1,6 @@
 import React from 'react';
 import Suggestion from './Suggestion';
-import suggestionData from '../data/suggestions.json'; // Crie um JSON com os dados das sugestões
+import suggestionData from '../data/suggestions.json'; 
 
 function Suggestions() {
   return (
